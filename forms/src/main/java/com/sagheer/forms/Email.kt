@@ -7,5 +7,4 @@ class Email {
         return Patterns.EMAIL_ADDRESS.matcher(email).matches()
     }
 
-
 }

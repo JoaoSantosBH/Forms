@@ -1,8 +1,9 @@
 package com.sagheer.forms
 
 class Password {
-    fun isPasswordLength8(pass: String): Boolean {
-        return pass.length >= 8
+
+    fun isPasswordGreaterThan(pass: String, minLength: Int): Boolean {
+        return pass.length >= minLength
     }
 
     // this function tells that password has one Alphabet and Number
